@@ -118,7 +118,6 @@ int main(int argc, char *argv[]) {
             exit(-1);
         }
     }
-
     pthread_mutex_destroy(&mutex);
     pthread_cond_destroy(&condicao_impressao);
     free(identificadores_threads);
